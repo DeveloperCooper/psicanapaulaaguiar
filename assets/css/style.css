@@ -1265,7 +1265,6 @@ footer {
 
 .footerContainer2 {
     padding-bottom: .2rem;
-    margin: 0 1rem;
 }
 
 .footerTitle {
@@ -1279,6 +1278,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-left: 0.2rem;
 }
 
 .footerItems li {
@@ -1290,7 +1290,7 @@ footer {
     text-decoration: none;
     font-weight: 100;
     font-size: 1.8rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
     letter-spacing: 1px;
     transition: var(--transition);
 }
