@@ -55,7 +55,7 @@ const myObserver = new IntersectionObserver((entries) => {
         if (entry.isIntersecting === true) {
             entry.target.classList.add('show')
              } else {
-                 entry.target.classList.remove('show')
+                //  entry.target.classList.remove('show')
         }
     });
   });

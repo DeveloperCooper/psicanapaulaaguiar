@@ -116,7 +116,7 @@ a {
 
 .hiddenLeft {
     opacity: 0;
-    filter: blur(15px);
+    filter: blur(10px);
     /* Efeito borrado */
     transform: translateX(-100%);
     /* Efeito esquerda para a direita */
@@ -154,7 +154,7 @@ a {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-    transition: all .8s;
+    transition: all 1.5s;
 }
 
 .Logo {
@@ -1148,6 +1148,31 @@ a {
     line-height: .2rem;
 }
 
+.contact-items {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-items li a:hover {
+    color: var(--txtFourth);
+    transition: var(--transition);
+}
+
+.contact-items li {
+    color: var(--fourth-color);
+    padding: .7rem;
+}
+
+.contact-items li a {
+    color: var(--fourth-color);
+    font-size: 2.4rem;
+    transition: var(--transition);
+}
+
 /* Faq */
 
 .faqItem {
@@ -1278,7 +1303,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-left: 0.2rem;
+    padding-left: 1%;
 }
 
 .footerItems li {
