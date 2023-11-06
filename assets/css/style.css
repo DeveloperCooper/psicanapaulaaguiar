@@ -71,7 +71,7 @@ a {
     padding-top: 6px;
 }
 
-/* .whatsappIcon:before, .whatsappIcon::after {
+.whatsappIcon:before, .whatsappIcon::after {
     content: "";
     display: block;
     position: absolute;
@@ -82,7 +82,7 @@ a {
     border-radius: 50%;
     border: 2px solid #01e675;
     animation: animated 1.5s linear infinite;
-} */
+}
 
 .whatsappIcon::after {
     animation-delay: .5s;
@@ -96,7 +96,7 @@ a {
     box-shadow: 2px 2px 20px #5fe690;
 }
 
-/* @keyframes animated {
+@keyframes animated {
     0% {
         transform: scale(0.5);
         opacity: 1;
@@ -107,10 +107,10 @@ a {
     }
 
     100% {
-        transform: scale(1.1);
+        transform: scale(1);
         opacity: 0;
     }
-} */
+}
 
 /* Transitions */
 
@@ -503,8 +503,8 @@ a {
 }
 
 .buttonz:hover {
-    background: var(--primaryColor);
-    transition: .8s;
+    background: #bfdb92;
+    transition: .6s;
 }
 
 .buttonz:active {
@@ -515,32 +515,20 @@ a {
     color: #464646;
 }
 
-.buttonz:hover span {
-    transition: .7s;
-    color: white;
-}
-
 .buttonz .border {
     position: absolute;
-    border: 0.15em solid #fff;
+    border: 0.15em solid #bfdb92;
     transition: all 0.3s 0.08s linear;
-    top: 50%;
-    left: 50%;
-    width: 11em;
-    height: 3em;
+    top: -29%;
+    left: -14%;
+    width: 23em;
+    height: 5em;
     transform: translate(-50%, -50%);
-}
-
-.buttonz:hover .border {
-    display: block;
-    width: 16em;
-    height: 3.9em;
-    border: 0.15em solid var(--primaryColor);
-    transition: .4s;
+    animation: animated 1.6s linear infinite;
 }
 
 .full-rounded {
-    border-radius: 2em;
+    border-radius: 4em;
 }
 
 /* About */
@@ -739,6 +727,38 @@ a {
     font-weight: 400;
     font-size: 1.9rem;
     color: var(--txtTertiary);
+}
+
+.tccDiv2 .buttonz .border {
+    position: absolute;
+    border: 0.15em solid #bfdb92;
+    transition: all 0.3s 0.08s linear;
+    top: -29%;
+    left: -20%;
+    width: 17em;
+    height: 5em;
+    transform: translate(-50%, -50%);
+    animation: animated 1.6s linear infinite;
+}
+
+#gallery .buttonz .border {
+    position: absolute;
+    border: 0.15em solid #bfdb92;
+    transition: all 0.3s 0.08s linear;
+    top: -29%;
+    left: -18%;
+    width: 17em;
+    height: 5em;
+    transform: translate(-50%, -50%);
+    animation: animated 1.6s linear infinite;
+}
+
+.tccDiv2 .buttonContainer {
+    padding: 2rem 0;
+}
+
+#gallery .buttonContainer {
+    padding: 2rem 0;
 }
 
 @media screen and (min-width: 1024px) {
@@ -1296,7 +1316,7 @@ footer {
     color: var(--txtPrimary);
     font-weight: 800;
     font-size: 2rem;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .footerItems {
@@ -1469,4 +1489,57 @@ img:hover {
         width: 47rem;
         left: 10px;
     }
+}
+
+/* Depoimentos */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 17%;
+    margin-top: 3.5rem;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 30%;
+    background: var(--fourth-color);
+    border: 1px solid var(--secondaryColor);
+    text-align: center;
+    color: var(--txtTertiary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.aspas {
+    width: 4rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cards {
+        margin: 0 2rem;
+    }
+
+    .card {
+        width: 95%;
+    }
+}
+
+.crp {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--fourth-color);
+}
+
+.footerBox1 .Logo {
+    margin-bottom: 2rem;
 }

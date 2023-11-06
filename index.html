@@ -8,6 +8,11 @@
     <meta name="description" content="Tudo que a mente humana  pode conceber, ela pode conquistar.">
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!--FavIcon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +25,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
         rel="stylesheet">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '328449626345073');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=328449626345073&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11359322293"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11359322293');
+    </script>
 </head>
 
 <body>
@@ -50,28 +83,33 @@
 
                 <li class="dropdown">
                     <div class="navbarLinks dropdownClick">
-                        <img alt="Ícone healthcare" src="./assets/images/Icons/healthcare.png">Abordagem <span class="arrow">&#9660;</span>
+                        <img alt="Ícone healthcare" src="./assets/images/Icons/healthcare.png">Abordagem <span
+                            class="arrow">&#9660;</span>
                     </div>
 
                     <div class="dropdownItems hiddenTop">
                         <a class="navbarLinks subLinks" href="#tcc">
-                            <img alt="Ícone therapy" src="./assets/images/Icons/therapy.png"><span class="break"><br></span>Terapia
+                            <img alt="Ícone therapy" src="./assets/images/Icons/therapy.png"><span
+                                class="break"><br></span>Terapia
                             Cognitivo Comportamental
                         </a>
 
                         <a class="navbarLinks subLinks" href="#tccBenefits">
-                            <img alt="Ícone increase" src="./assets/images/Icons/increase.png"><span class="break"><br></span>Benefícios da
+                            <img alt="Ícone increase" src="./assets/images/Icons/increase.png"><span
+                                class="break"><br></span>Benefícios da
                             TCC
                         </a>
                     </div> <!--dropdownItems-->
                 </li>
 
                 <li>
-                    <a class="navbarLinks" href="#gallery"><img alt="Ícone gallery" src="./assets/images/Icons/gallery.png">Galeria</a>
+                    <a class="navbarLinks" href="#gallery"><img alt="Ícone gallery"
+                            src="./assets/images/Icons/gallery.png">Galeria</a>
                 </li>
 
                 <li>
-                    <a class="navbarLinks" href="#contact"><img alt="Ícone chat" src="./assets/images/Icons/chat.png">Contato</a>
+                    <a class="navbarLinks" href="#contact"><img alt="Ícone chat"
+                            src="./assets/images/Icons/chat.png">Contato</a>
                 </li>
             </ul> <!--navbarList-->
         </nav> <!--navbar-->
@@ -79,7 +117,8 @@
 
     <div class="All">
         <div class="wallpaperContainer">
-            <video src="./assets/images/videotrigo.mp4" class="contentWallpaper" autoplay loop muted></video>
+            <video src="./assets/images/videotrigo.mp4" class="contentWallpaper" preload="auto" autoplay loop
+                muted></video>
             <div class="wallpaperTexts">
                 <h1 class="wallpaperTitle">Pare e dê uma chance a si mesmo.</h1>
                 <h2 class="wallpaperAuthor">-Aaron Beck</h2>
@@ -91,7 +130,7 @@
         <div class="buttonContainer">
             <button class="full-rounded buttonz">
                 <a href="https://wa.link/oxz8m9" target="_blank">
-                    <span><i class="fab fa-whatsapp"></i> Agende uma Sessão</span>
+                    <span><i class="fab fa-whatsapp"></i> Agende sua sessão agora!</span>
                     <div class="border full-rounded"></div>
                 </a>
 
@@ -123,10 +162,9 @@
                     <br>
                     <br>
                     <img class="leaf3" src="./assets/images/Leaf3.webp" alt="">
-                    Muito prazer! Meu nome é Ana Paula. Sou uma pessoa simples, encantada pela
-                    natureza e prezo muito por rotina e organização. Estou na área da psicologia pois
-                    sou uma eterna fascinada pelo comportamento e desenvolvimento humano e foi
-                    com muita determinação, resiliência, fé e disciplina que cheguei até aqui.
+                    Muito prazer! Meu nome é Ana Paula, sou encantada pela vida e por tudo de bom que ela nos
+                    proporciona. Sinto-me feliz e realizada em poder ajudar pessoas a viver melhor, tendo mais
+                    consciência e controle das suas emoções e dos seus pensamentos.
                     <br>
                     <br>
                     Atuo como psicóloga clínica e especialista em Terapia Cognitivo Comportamental
@@ -155,7 +193,6 @@
     </div> <!--about-->
 
     <div id="tcc">
-        <img src="" class="tccWallpaper">
         <div class="tccContainer">
             <div class="tccDiv1">
                 <img class="leaf4" src="./assets/images/Leaf4.webp" alt="">
@@ -191,6 +228,15 @@
                     transtornos de ansiedade, transtorno obsessivo compulsivo &#40;TOC&#41;, transtornos
                     alimentares, etc...
                 </div> <!--tccDescription-->
+                <div class="buttonContainer">
+                    <button class="full-rounded buttonz">
+                        <a href="https://wa.link/oxz8m9" target="_blank">
+                            <span><i class="fab fa-whatsapp"></i> Agende aqui!</span>
+                            <div class="border full-rounded"></div>
+                        </a>
+
+                    </button>
+                </div> <!--buttonContainer-->
             </div> <!--tccDiv2-->
 
         </div> <!--tccContainer-->
@@ -202,13 +248,13 @@
         <p class="benefitsLine"></p>
         <div class="benefitsCont">
             <p class="benefitsMin hiddenLeft">
-            ✓ A TCC é uma das terapias com maior comprovação científica.
-            <br>
-            <br>
-            ✓ É considerada padrão ouro para tratamento de diversos transtornos.
-            <br>
-            <br>
-            ✓ É uma terapia que mede o progresso do paciente.
+                ✓ A TCC é uma das terapias com maior comprovação científica.
+                <br>
+                <br>
+                ✓ É considerada padrão ouro para tratamento de diversos transtornos.
+                <br>
+                <br>
+                ✓ É uma terapia que mede o progresso do paciente.
             </p> <!--benefitsMin-->
         </div> <!--bwenefitsCont-->
         <div class="benefitsContainer hiddenLeft">
@@ -256,7 +302,7 @@
     <div id="gallery">
         <h1 class="galleryTitle">Conheça meu trabalho</h1>
         <div class="gallery-container">
-            
+
             <div class="gallery-item" data-index="2">
                 <img alt="Imagem 01" src="./assets/images/Image 3.webp">
             </div>
@@ -271,7 +317,71 @@
             </div>
 
         </div>
+
+        <div class="buttonContainer">
+            <button class="full-rounded buttonz">
+                <a href="https://wa.link/oxz8m9" target="_blank">
+                    <span><i class="fab fa-whatsapp"></i> Agende agora!</span>
+                    <div class="border full-rounded"></div>
+                </a>
+
+            </button>
+        </div> <!--buttonContainer-->
     </div> <!--gallery-->
+
+    <h1 class="galleryTitle">Depoimentos</h1>
+    <div class="cards hiddenLeft">
+        <div class="card">
+            <img src="./assets/images/left.webp" alt="Aspas" class="aspas">
+            <span class="cardText">Bom dia Dra. Ana Paula!!
+                Quero fazer um breve depoimento de muita gratidão a você! Meu filho teve alguns atrasos no seu
+                desenvolvimento mas graças a Dra. Ana Paula, ele conseguiu superar seus atrasos e hoje consegue
+                acompanhar a turma normalmente!!
+                Dra. Ana Paula é uma profissional de muita credibilidade, conquistou minha confiança, tem muita
+                competência e domínio no que faz, além da humildade e bondade de coração!!
+                Eterna gratidão a você!</span>
+        </div>
+        <div class="card">
+            <img src="./assets/images/left.webp" alt="Aspas" class="aspas">
+            <span class="cardText">Dra. Ana Paula, quero lhe agradecer por tudo que tem feito para me ajudar da
+                depressão!
+                Mesmo estando distante você me fez enxergar um mundo diferente e muito melhor pra mim. Toda paciência,
+                me ouviu com tanto respeito e cuidado me acolhendo com palavras de força e coragem. Gratidão e que Deus
+                retribua todo carinho que tens por mim.</span>
+        </div>
+        <div class="card">
+            <img src="./assets/images/left.webp" alt="Aspas" class="aspas">
+            <span class="cardText">Depois que iniciei as terapia com a Ana, tive realmente uma sensação libertadora.
+                Teve um tempo que fui resistente, mas em determinado momento percebi que realmente precisava me cuidar
+                mais. E ter com quem conversar, me abrir sem medo de julgamento me deixa mais leve.
+                É um sentimento de autocuidado mesmo, o meu momento e hoje vejo o quanto isso tem me ajudado.</span>
+        </div>
+        <div class="card">
+            <img src="./assets/images/left.webp" alt="Aspas" class="aspas">
+            <span class="cardText">Faço psicoterapia a 1 ano com a Dra. Ana Paula, comecei depois de ter umas crises de
+                ansiedade e está sendo muito gratificante ver a dedicação, paciência e a sabedoria que a doutora me
+                transmite para compreender quem eu sou e os porquês de algumas situações que vivencio ou vivenciei em
+                certas fases da minha vida. Sei que o processo é lento mas continuarei seguindo forte em meu
+                tratamento.</span>
+        </div>
+        <div class="card">
+            <img src="./assets/images/left.webp" alt="Aspas" class="aspas">
+            <span class="cardText">Gostaria de agradecer a você Dra. Ana Paula pelo atendimento de excelência que me
+                disponibilizou. Você foi um divisor de águas na minha vida, com sua competência, paciência,
+                perseverança, resiliência e profissionalismo me ajudou no meu processo de auto conhecimento e
+                reconstrução. Parabéns pela profissional que és e obrigada por tudo, nosso processo terapêutico tem me
+                feito rever meus conceitos e ter uma nova visão da minha vida pessoal e profissionalmente.</span>
+        </div>
+        <div class="card">
+            <img src="./assets/images/left.webp" alt="Aspas" class="aspas">
+            <span class="cardText">Já havia começado terapia antes!
+                Mas não com abordagem TCC que no meu diagnóstico (Transtorno bipolar) foi uma virada de chave!
+                Pois trabalhamos com metas (Planos de ação).
+                Só tenho agradecer por todo acolhimento.
+                Ansiosa pela próxima sessão!
+                Pois sou eu quem está em processo terapêutico, a mudança começa por mim e para mim.</span>
+        </div>
+    </div>
 
     <div id="contact" class="lastContainer">
 
@@ -317,7 +427,8 @@
                 </div> <!--faqQuestion-->
 
                 <div class="faqAnswer">
-                    <p>Não, se você apresenta dificuldades com algumas das questões abaixo, o processo terapêutico te ajudará
+                    <p>Não, se você apresenta dificuldades com algumas das questões abaixo, o processo terapêutico te
+                        ajudará
                         significativamente.
                         <br>
                         - Como ter um bom relacionamento amoroso?
@@ -330,8 +441,9 @@
                         <br>
                         - Como ser mais assertivo e saber colocar limites nas relações com outras pessoas?
                         <br>
-                        - Como ser mais obstinado e disciplinado para alcançar diversos objetivos (financeiros, dieta, exercícios físicos)?
-                        </p>
+                        - Como ser mais obstinado e disciplinado para alcançar diversos objetivos (financeiros, dieta,
+                        exercícios físicos)?
+                    </p>
                 </div> <!--faqAnswer-->
             </div> <!--faqItem-->
 
@@ -344,8 +456,10 @@
                 </div> <!--faqQuestion-->
 
                 <div class="faqAnswer">
-                    <p>É só você entrar em contato no meu WhatsApp e assim alinhamos um melhor horário. Após confirmação da
-                        consulta encaminho alguns direcionamentos e informações importantes para que o processo possa fluir de
+                    <p>É só você entrar em contato no meu WhatsApp e assim alinhamos um melhor horário. Após confirmação
+                        da
+                        consulta encaminho alguns direcionamentos e informações importantes para que o processo possa
+                        fluir de
                         forma mais assertiva e você possa aproveitá-lo melhor</p>
                 </div> <!--faqAnswer-->
             </div> <!--faqItem-->
@@ -374,12 +488,18 @@
                 </div> <!--faqQuestion-->
 
                 <div class="faqAnswer">
-                    <p>Estudos têm mostrado que essa abordagem pode ser tão eficaz quanto a terapia presencial. A American
-                        Psychological Association (APA) publicou um artigo em sua revista de psicologia clínica, que revisou estudos
-                        que compararam a eficácia da terapia online e presencial. Eles descobriram que a terapia online é tão eficaz
-                        quanto a terapia presencial para uma ampla gama de transtornos de saúde mental, incluindo ansiedade,
-                        depressão e estresse pós-traumático. Em muitos casos, a terapia online pode até oferecer benefícios
-                        adicionais, como maior acessibilidade e conveniência. Pode ser particularmente útil para pessoas que têm
+                    <p>Estudos têm mostrado que essa abordagem pode ser tão eficaz quanto a terapia presencial. A
+                        American
+                        Psychological Association (APA) publicou um artigo em sua revista de psicologia clínica, que
+                        revisou estudos
+                        que compararam a eficácia da terapia online e presencial. Eles descobriram que a terapia online
+                        é tão eficaz
+                        quanto a terapia presencial para uma ampla gama de transtornos de saúde mental, incluindo
+                        ansiedade,
+                        depressão e estresse pós-traumático. Em muitos casos, a terapia online pode até oferecer
+                        benefícios
+                        adicionais, como maior acessibilidade e conveniência. Pode ser particularmente útil para pessoas
+                        que têm
                         dificuldades em se deslocar até um consultório ou que moram em outros países ou cidades.</p>
                 </div> <!--faqAnswer-->
             </div> <!--faqItem-->
@@ -393,10 +513,12 @@
                 </div> <!--faqQuestion-->
 
                 <div class="faqAnswer">
-                    <p>É variável e dependerá dos seus objetivos e da natureza das questões a serem trabalhadas, bem como do seu
-                        progresso. Mas é importante destacar que esta modalidade de atendimento percorre determinados estágios
+                    <p>É variável e dependerá dos seus objetivos e da natureza das questões a serem trabalhadas, bem
+                        como do seu
+                        progresso. Mas é importante destacar que esta modalidade de atendimento percorre determinados
+                        estágios
                         visando a alta.
-                        </p>
+                    </p>
                 </div> <!--faqAnswer-->
             </div> <!--faqItem-->
         </div> <!--faqContainer-->
@@ -409,6 +531,7 @@
             </div> <!--footerBox1-->
 
             <div class="footerBox2">
+                <span class="crp">CRP 18453</span>
                 <h3 class="footerTitle">Navegação</h3>
                 <ul class="footerItems">
                     <li>
@@ -438,12 +561,14 @@
 
                 <ul class="contact-items" data-aos="fade-right">
                     <li>
-                        <a href="" target="_blank" class="contact-icon">
+                        <a href="https://wa.me/5562983044336" aria-label="Link para o whatsapp" target="_blank"
+                            class="contact-icon">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="" target="_blank" class="contact-icon">
+                        <a href="https://www.instagram.com/psipaula.aguiar/" aria-label="Link para o instagram"
+                            target="_blank" class="contact-icon">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
@@ -463,8 +588,8 @@
             <div class="footerBox5">
                 <p id="nexxusagencia">Site desenvolvido por
                     <br>
-                    <a href="https://nexxusagencia.digital/" target="_blank"><img class="nexxusimg" src="./assets/images/Nexxuswebp.webp"
-                            alt="Nexxus WebDesign"></a>
+                    <a href="https://nexxusagencia.digital/" target="_blank"><img class="nexxusimg"
+                            src="./assets/images/Nexxuswebp.webp" alt="Nexxus WebDesign"></a>
                 </p>
             </div> <!--footerBox5-->
         </div> <!--footerContainer2-->
@@ -472,13 +597,14 @@
     </footer>
 
     <div class="whatsappButton">
-        <a href="https://wa.link/oxz8m9" class="whatsappIcon" target="_blank" aria-label="Entrar em contato pelo WhatsApp">
+        <a href="https://wa.link/oxz8m9" class="whatsappIcon" target="_blank"
+            aria-label="Entrar em contato pelo WhatsApp">
             <i class="fab fa-whatsapp" aria-hidden="true"></i>
         </a>
     </div> <!--whatsappButton-->
 
     <!--JS-->
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js" defer></script>
     <!--Icons-->
     <script src="https://kit.fontawesome.com/7a281ed243.js" crossorigin="anonymous"></script>
 </body>
